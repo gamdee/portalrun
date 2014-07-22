@@ -1,0 +1,8 @@
+*/bin
+*/obj
+*.user
+*.suo
+*.db
+*/game.js
+web.debug.config
+web.release.config

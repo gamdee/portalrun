@@ -1,0 +1,5 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="asteroid.png" x="0" y="155" width="56" height="58"/>
+	<SubTexture name="asteroid2.png" x="0" y="0" width="167" height="153"/>
+	<SubTexture name="asteroid3.png" x="58" y="155" width="50" height="50"/>
+</TextureAtlas>
