@@ -45,6 +45,7 @@
     <TypeScriptCompile Include="Game.ts" />
     <TypeScriptCompile Include="GameOver.ts" />
     <TypeScriptCompile Include="Ground.ts" />
+    <TypeScriptCompile Include="jquery.d.ts" />
     <TypeScriptCompile Include="MainMenu.ts" />
     <TypeScriptCompile Include="phaser.d.ts" />
     <TypeScriptCompile Include="Portal.ts" />
