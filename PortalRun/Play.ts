@@ -115,6 +115,9 @@
                 this.scoreSound.play();
                 this.score++;
                 this.scoreText.setText(this.score.toString());
+                this.spikeGenerator.delay = (this.spikeGenerator.delay > 300) ?
+                Math.max(this.spikeGenerator.delay - 40, 300) :
+                Math.max(this.spikeGenerator.delay - 10, 100);
             }
         }
 
