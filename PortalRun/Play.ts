@@ -1,6 +1,6 @@
 ﻿module PortalRun {
 
-    export class Play extends Phaser.State {
+    export class Play extends BaseState {
 
         backgroundSky: Phaser.TileSprite;
         backgroundMoon: Phaser.Sprite;
@@ -71,6 +71,8 @@
         }
 
         update() {
+            super.update();
+
             this.game.physics.arcade.collide(this.player, this.ground);
 
             var numPortalExists = 0;

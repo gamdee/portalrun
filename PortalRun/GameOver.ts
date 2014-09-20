@@ -1,6 +1,6 @@
 ﻿module PortalRun {
 
-    export class GameOver extends Phaser.State {
+    export class GameOver extends BaseState {
 
         backgroundGrass: Phaser.TileSprite;
         ground: PortalRun.Ground;
@@ -38,6 +38,7 @@
         }
 
         update() {
+            super.update();
         }
     }
 }

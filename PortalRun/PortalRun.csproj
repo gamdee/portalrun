@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="BaseState.ts" />
     <TypeScriptCompile Include="Boot.ts" />
     <TypeScriptCompile Include="Game.ts" />
     <TypeScriptCompile Include="GameOver.ts" />

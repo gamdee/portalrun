@@ -1,6 +1,6 @@
 ﻿module PortalRun {
 
-    export class MainMenu extends Phaser.State {
+    export class MainMenu extends BaseState {
 
         titleText: Phaser.BitmapText;
         backgroundGrass: Phaser.TileSprite;
@@ -39,6 +39,8 @@
         }
 
         update() {
+            super.update();
+
             this.game.physics.arcade.collide(this.player, this.ground);
 
             if (this.animationOn) {
