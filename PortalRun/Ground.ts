@@ -4,7 +4,7 @@
 
         constructor(game: Phaser.Game, x: number, y: number, width: number, height: number) {
 
-            super(game, x, y, width, height, 'ground');
+            super(game, x, y, width, height, 'sprite', 'ground.png');
 
             game.add.existing(this);
             game.physics.arcade.enableBody(this);
