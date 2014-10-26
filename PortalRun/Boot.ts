@@ -3,7 +3,6 @@
     export class Boot extends Phaser.State {
 
         preload() {
-            this.load.image('rotate', 'assets/rotate.jpg');
         }
 
         create() {
