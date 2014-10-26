@@ -28,7 +28,6 @@
     <Content Include="assets\platform.txt" />
     <Content Include="assets\portal.mp3" />
     <Content Include="assets\score.mp3" />
-    <Content Include="assets\sky.png" />
     <Content Include="assets\sprite.png" />
     <Content Include="assets\startButton.png" />
     <Content Include="assets\warp.mp3" />

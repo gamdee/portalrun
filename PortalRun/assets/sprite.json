@@ -91,12 +91,21 @@
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
-	"filename": "platform.png",
-	"frame": {"x":478,"y":2,"w":256,"h":96},
+    "filename": "platform.png",
+    "frame": { "x": 478, "y": 2, "w": 256, "h": 96 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 256, "h": 96 },
+    "sourceSize": { "w": 256, "h": 96 },
+    "pivot": { "x": 0.5, "y": 0.5 }
+},
+{
+	"filename": "sky.png",
+	"frame": {"x":574,"y":34,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":96},
-	"sourceSize": {"w":256,"h":96},
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
