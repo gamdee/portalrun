@@ -16,7 +16,7 @@
             this.game.stage.backgroundColor = '#222222';
             this.titleText = this.game.add.bitmapText(this.game.width / 2 - 60, 50, 'portalfont', 'Portal Run', 24);
 
-            this.startButton = this.game.add.button(this.game.width / 2, 150, 'startButton', this.startClick, this);
+            this.startButton = this.game.add.button(this.game.width / 2, 150, 'sprite', this.startClick, this, 'startButton.png', 'startButton.png', 'startButton.png', 'startButton.png');
             this.startButton.anchor.setTo(0.5, 0.5);
 
             this.ground = new PortalRun.Ground(this.game, 0, this.game.height - 32, this.game.width, 32);

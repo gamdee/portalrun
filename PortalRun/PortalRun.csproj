@@ -27,7 +27,6 @@
     <Content Include="assets\portal.mp3" />
     <Content Include="assets\score.mp3" />
     <Content Include="assets\sprite.png" />
-    <Content Include="assets\startButton.png" />
     <Content Include="assets\warp.mp3" />
     <Content Include="index.html" />
     <Content Include="phaser.js" />
