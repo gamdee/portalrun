@@ -33,12 +33,12 @@
                 var x = this.game.rnd.integerInRange(0, this.game.width);
                 var y = this.game.rnd.integerInRange(0, this.game.height);
                 var r = this.game.rnd.integerInRange(0, 4);
-                var starGroup: Phaser.Sprite = this.add.sprite(x, y, 'platform', 'stars');
+                var starGroup: Phaser.Sprite = this.add.sprite(x, y, 'sprite', 'stars.png');
                 starGroup.angle = r * 90;
                 this.backgroundStars.add(starGroup);
             }
 
-            this.backgroundMoon = this.add.sprite(this.game.width - 50, 50, 'platform', 'moon');
+            this.backgroundMoon = this.add.sprite(this.game.width - 50, 50, 'sprite', 'moon.png');
             this.backgroundMoon.anchor.setTo(0.5, 0.5);
 
             this.score = 0;

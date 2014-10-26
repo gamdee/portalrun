@@ -5,7 +5,6 @@
         preload() {
             this.load.atlasJSONArray('sprite', 'assets/sprite.png', 'assets/sprite.json');
 
-            this.load.atlas('platform', 'assets/platform.png', 'assets/platform.txt');
             this.load.atlasXML('asteroids', 'assets/asteroids.png', 'assets/asteroids.xml');
 
             this.load.bitmapFont('portalfont', 'assets/font/font.png', 'assets/font/font.fnt');
