@@ -3,7 +3,7 @@
     export class Preloader extends Phaser.State {
 
         preload() {
-            this.load.spritesheet('player', 'assets/dude.png', 32, 48);
+            this.load.atlasJSONArray('sprite', 'assets/sprite.png', 'assets/sprite.json');
             this.load.spritesheet('portal', 'assets/portal.png', 102, 102);
             this.load.image('sky', 'assets/sky.png');
             this.load.image('ground', 'assets/ground.png');

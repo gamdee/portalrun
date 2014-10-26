@@ -14,7 +14,7 @@
         }
 
         create() {
-            this.deadPlayer = this.game.add.sprite(this.game.width / 2, this.game.height - 32, 'player', 5);
+            this.deadPlayer = this.game.add.sprite(this.game.width / 2, this.game.height - 32, 'sprite', 'dude06.png');
             this.deadPlayer.anchor.setTo(0.5, 0.5);
             this.deadPlayer.angle = 90;
 
