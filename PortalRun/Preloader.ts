@@ -4,7 +4,6 @@
 
         preload() {
             this.load.atlasJSONArray('sprite', 'assets/sprite.png', 'assets/sprite.json');
-            this.load.spritesheet('portal', 'assets/portal.png', 102, 102);
             this.load.image('sky', 'assets/sky.png');
             this.load.image('ground', 'assets/ground.png');
             this.load.image('grass', 'assets/grass.png');

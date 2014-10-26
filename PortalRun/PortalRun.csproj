@@ -27,9 +27,9 @@
     <Content Include="assets\platform.png" />
     <Content Include="assets\platform.txt" />
     <Content Include="assets\portal.mp3" />
-    <Content Include="assets\portal.png" />
     <Content Include="assets\score.mp3" />
     <Content Include="assets\sky.png" />
+    <Content Include="assets\sprite.png" />
     <Content Include="assets\startButton.png" />
     <Content Include="assets\warp.mp3" />
     <Content Include="index.html" />
@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\font\font.fnt" />
+    <Content Include="assets\sprite.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

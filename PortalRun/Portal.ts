@@ -4,14 +4,14 @@
 
         constructor(game: Phaser.Game, x: number, y: number) {
 
-            super(game, x, y, 'portal');
+            super(game, x, y, 'sprite', 'portal01.png');
 
             this.anchor.setTo(0.5, 0.5);
 
             game.add.existing(this);
             game.physics.arcade.enableBody(this);
 
-            this.animations.add('warp', null, 10, true);
+            this.animations.add('warp', Phaser.Animation.generateFrameNames('portal0', 1, 8, '.png', 0), 10, true);
             this.animations.play('warp');
 
             this.body.allowGravity = false;
