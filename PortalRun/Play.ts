@@ -51,7 +51,7 @@
             this.ground = new PortalRun.Ground(this.game, 0, this.game.height - 32, this.game.width, 32);
             this.ground.autoScroll(-Player.Velocity, 0);
 
-            this.backgroundGrass = this.game.add.tileSprite(0, 0, this.game.width, 21, 'grass');
+            this.backgroundGrass = this.game.add.tileSprite(0, 0, this.game.width, 21, 'sprite', 'grass.png');
             this.backgroundGrass.y = this.ground.y - this.backgroundGrass.height;
             this.backgroundGrass.autoScroll(-Player.Velocity, 0);
 

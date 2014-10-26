@@ -109,12 +109,21 @@
     "pivot": { "x": 0.5, "y": 0.5 }
 },
 {
-	"filename": "ground.png",
-	"frame": {"x":574,"y":66,"w":32,"h":32},
+    "filename": "ground.png",
+    "frame": { "x": 574, "y": 66, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+    "sourceSize": { "w": 32, "h": 32 },
+    "pivot": { "x": 0.5, "y": 0.5 }
+},
+{
+	"filename": "grass.png",
+	"frame": {"x":638,"y":77,"w":96,"h":21},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
-	"sourceSize": {"w":32,"h":32},
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":21},
+	"sourceSize": {"w":96,"h":21},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
