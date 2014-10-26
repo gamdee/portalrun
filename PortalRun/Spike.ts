@@ -11,16 +11,16 @@
             var frameKey: string;
             switch (randomFrame) {
                 case 0:
-                    frameKey = 'asteroid3.png';
+                    frameKey = 'asteroid03.png';
                     break;
                 case 1:
-                    frameKey = 'asteroid.png';
+                    frameKey = 'asteroid01.png';
                     break;
                 case 2:
-                    frameKey = 'asteroid2.png';
+                    frameKey = 'asteroid02.png';
                     break;
             }
-            super(game, x, y, 'asteroids', frameKey);
+            super(game, x, y, 'sprite', frameKey);
 
             this.rotateSpeed = this.game.rnd.integerInRange(1, 5);
 

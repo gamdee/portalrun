@@ -18,8 +18,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.css" />
-    <Content Include="assets\asteroids.png" />
-    <Content Include="assets\asteroids.xml" />
     <Content Include="assets\death.mp3" />
     <Content Include="assets\font\font.png" />
     <Content Include="assets\portal.mp3" />

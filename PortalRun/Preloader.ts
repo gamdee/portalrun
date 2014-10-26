@@ -5,8 +5,6 @@
         preload() {
             this.load.atlasJSONArray('sprite', 'assets/sprite.png', 'assets/sprite.json');
 
-            this.load.atlasXML('asteroids', 'assets/asteroids.png', 'assets/asteroids.xml');
-
             this.load.bitmapFont('portalfont', 'assets/font/font.png', 'assets/font/font.fnt');
 
             this.load.audio('deathSound', 'assets/death.mp3');
