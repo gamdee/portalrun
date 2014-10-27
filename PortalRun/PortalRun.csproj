@@ -20,6 +20,7 @@
     <Content Include="app.css" />
     <Content Include="assets\death.mp3" />
     <Content Include="assets\font\font.png" />
+    <Content Include="assets\grass.png" />
     <Content Include="assets\portal.mp3" />
     <Content Include="assets\score.mp3" />
     <Content Include="assets\sprite.png" />

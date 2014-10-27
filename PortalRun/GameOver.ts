@@ -20,7 +20,7 @@
 
             this.ground = new PortalRun.Ground(this.game, 0, this.game.height - 32, this.game.width, 32);
 
-            this.backgroundGrass = this.game.add.tileSprite(0, 0, this.game.width, 21, 'sprite', 'grass.png');
+            this.backgroundGrass = this.game.add.tileSprite(0, 0, this.game.width, 21, 'grass');
             this.backgroundGrass.y = this.ground.y - this.backgroundGrass.height;
 
             this.scoreText = this.game.add.bitmapText(this.game.width / 2 - 60, 100, 'portalfont', 'Score: ' + this.score.toString(), 24);
