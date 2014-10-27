@@ -109,15 +109,6 @@
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
-    "filename": "platform.png",
-    "frame": { "x": 478, "y": 2, "w": 256, "h": 96 },
-    "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 256, "h": 96 },
-    "sourceSize": { "w": 256, "h": 96 },
-    "pivot": { "x": 0.5, "y": 0.5 }
-},
-{
     "filename": "sky.png",
     "frame": { "x": 574, "y": 34, "w": 32, "h": 32 },
     "rotated": false,
@@ -248,8 +239,8 @@
 	"version": "1.0",
 	"image": "sprite.png",
 	"format": "RGBA8888",
-	"size": {"w":838,"h":218},
+	"size": {"w":1024,"h":256},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:ceafa12817747c3e97ece9c4c2bc78d5:ca1c6a3ee1f2ab0ad408b12cfe147121:68d88b3cf7eafc9b5accfffdfb2fda91$"
+	"smartupdate": "$TexturePacker:SmartUpdate:c56240dc12ba2de42773521a3c3fa7b5:ed8d609b8192e69ac7188f636e823e7a:66aaffcd701bd28f82c283e8c5bc56bb$"
 }
 }
