@@ -4,6 +4,7 @@
 
         preload() {
             this.load.atlasJSONArray('sprite', 'assets/sprite.png', 'assets/sprite.json');
+            this.load.image('sky', 'assets/sky.png');
             this.load.image('ground', 'assets/ground.png');
             this.load.image('grass', 'assets/grass.png');
             this.load.bitmapFont('portalfont', 'assets/font/font.png', 'assets/font/font.fnt');
