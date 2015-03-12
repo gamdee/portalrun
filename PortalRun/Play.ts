@@ -84,7 +84,7 @@
                     if (portal.overlap(this.player) && Math.abs(this.player.world.x - portal.world.x) <= 2) {
                         var otherPortal = this.portals.getAt(1 - i);
                         this.player.x = otherPortal.world.x + 3;
-                        this.player.y = Math.min(otherPortal.world.y, this.ground.world.y - this.player.height);
+                        this.player.y = Math.min(otherPortal.world.y, this.ground.world.y - this.player.height - 10);
                         this.warpSound.play();
                         break;
                     }
