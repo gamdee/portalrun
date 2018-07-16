@@ -6,3 +6,4 @@
 */game.js
 web.debug.config
 web.release.config
+**/.vs
